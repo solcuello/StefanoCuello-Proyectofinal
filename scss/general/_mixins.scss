@@ -1,0 +1,45 @@
+//extends//
+
+.name{
+    font-size: "Raleway", sans-serif;
+        color: #EBC00C;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+        padding-top: 4%;
+        font-weight: 600;
+}
+
+.prox{
+    @extend .name;
+    &:hover{
+        color:$resaltar;
+        }
+  
+}
+
+//mixins
+@mixin texto($grande,$color){
+    font-size: $grande;
+    color: $color;
+    border-radius: 10px;
+
+}
+
+P{
+    @include texto (1em, $black)
+}
+
+//map//
+
+$paleta:(
+    'uno':#ffffff9d,
+    'dos':rgb(31, 30, 30),
+    'tres': #349E94,
+    'cuatro': #977a08,
+    'cinco':#EBC00C,
+    );
+
+#botonera{
+    background-color: map-get($map:$paleta, $key: 'cinco');
+}
