@@ -34,15 +34,12 @@
     height: 150vh;
 }
 
-.main-e{
-    background-color: $fondoP;
-    /*
-    background-position: center center;
-    background-image: url(../img/stefano.jpeg);
-    background-size:cover ;
+.main-show {
+    background-size: cover;
     width: 100%;
-    height: 150vh;*/
+    height: 150vh;
 }
+
 .main-c{
     background-position: center center;
     background-image: url(../img/stefano.jpg);
@@ -52,25 +49,16 @@
 }
 
 .main-m{
-    background-position: center center;
-    background-color:#ffffff9d;
     width: 100%;
-    height: 80vh;
+   
 }
+
 .main-multi{
     background-color:#ffffff9d;
     width: 100%;
     height: 100%;
 }
 
-
-.mainerror{
-    background-position: center center;
-    background-image: url(../img/404.jpg);
-    background-size:cover;
-    width: 100%;
-    height: 100vh;
-}
 
 .parrafo{
     width:auto;
@@ -120,25 +108,25 @@ img:hover{
     border:10px solid #ffffff9d
 }
 
-/*********************FIN DE AGINA MULTIMEDIA*****************/
+/*********************FIN ESCUCHA*****************/
 
 
 .center {
     margin: auto;
-    width: 50%;
+    width: 70%;
     padding: 10px;	
-  }
-
+    display: flex;
+    flex-direction: column;
+}
  .altura-video{
     display:block;
-    height: 50vh;
+    height: 80vh;
+    width: 100%;
+    margin-top: 10%;
  }
 
- .altura-fotos{
-    display:block;
-    height: auto;
- }
- /*pagina multimedia*/
+
+/****************FIN PAGINA ESCUCHA**********/
 
 
 /*********************PAGINA CONTACTO **********/
@@ -161,3 +149,20 @@ label{
 
 /*********************FIN DE PAGINA CONTACTO **********/
 
+/********************* PAGINA SHOW**********/
+body {
+    position: relative;
+    margin: 0;
+  }
+ 
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+
+/********************* FIN DE PAGINA SHOW*********/
