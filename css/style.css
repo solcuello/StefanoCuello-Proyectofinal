@@ -10110,9 +10110,16 @@ textarea.form-control-lg {
     height: 80vh;
   }
   .error404-2 {
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(29, 29, 29);
     width: 100%;
     height: 10vh;
+  }
+  .volver {
+    color: #EBC00C;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 2em;
+    text-transform: uppercase;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 890px) {
@@ -10121,9 +10128,18 @@ textarea.form-control-lg {
     height: 100vh;
   }
   .error404-2 {
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(29, 29, 29);
     width: 100%;
     height: 10vh;
+  }
+  .volver {
+    color: #EBC00C;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 2em;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
   }
 }
 @media screen and (min-width: 891px) and (max-width: 1600px) {
@@ -10135,6 +10151,20 @@ textarea.form-control-lg {
     background-color: rgb(29, 29, 29);
     width: 100%;
     height: 10vh;
+  }
+  .volver {
+    color: #EBC00C;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 2em;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .error404-2 p {
+    display: flex;
+    flex-direction: center;
+    text-decoration: none;
   }
 }
 @media screen and (max-width: 480px) {
@@ -10216,14 +10246,15 @@ textarea.form-control-lg {
   margin-right: 50px;
 }
 
-P {
+.Parrafo1 {
   font-family: "Raleway", sans-serif;
   width: auto;
   height: auto;
+  font-weight: bold;
 }
 
 /*********animaciones******/
-p {
+.parrafo1 {
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -10280,6 +10311,16 @@ label {
   font-size: 0.8rem;
 }
 
+.botonR {
+  background-color: #EBC00C;
+  border-color: #EBC00C;
+}
+
+.botonE {
+  background-color: #EBC00C;
+  border-color: #EBC00C;
+}
+
 /*********************FIN DE PAGINA CONTACTO **********/
 /********************* PAGINA SHOW**********/
 body {
@@ -10304,16 +10345,6 @@ video {
 }
 
 /********************* FIN DE PAGINA SHOW*********/
-/********************* FIN ERROR 404********/
-.volver {
-  color: #EBC00C;
-  text-decoration: none;
-  font-size: 1.4rem;
-  font-family: 2em;
-  display: flex;
-  text-align: center;
-}
-
 nav {
   background-color: #EBC00C;
 }

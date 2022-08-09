@@ -8,11 +8,21 @@
         height: 80vh;
     }
     .error404-2{
-        background-color:$black;
+        background-color:rgb(29, 29, 29);
         width: 100%;
         height: 10vh;
     }
+
+    .volver{
+        color:$maincolor;
+        text-decoration: none;
+        font-size: $textoChico;
+        font-family: $textoTitulo;
+        text-transform: uppercase;
     
+    }
+  
+   
 }
 
 @media screen and (min-width: 481px) and (max-width: 890px) {
@@ -23,9 +33,20 @@
     }
 
 .error404-2{
-    background-color:$black;
+    background-color:rgb(29, 29, 29);
     width: 100%;
     height: 10vh;
+
+}
+.volver{
+    color:$maincolor;
+    text-decoration: none;
+    font-size: $textoM;
+    font-family: $textoTitulo;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+
 }
 }
 
@@ -41,6 +62,22 @@
         background-color:rgb(29, 29, 29);
         width:100%;
         height: 10vh;
+    }
+
+    .volver{
+        color:$maincolor;
+        text-decoration: none;
+        font-size: $textoM;
+        font-family: $textoTitulo;
+        display: flex;
+        text-align: center;
+        text-transform: uppercase;
+    
+    }
+    .error404-2 p{
+        display: flex;
+        flex-direction: center;
+        text-decoration: none;
     }
 }
 

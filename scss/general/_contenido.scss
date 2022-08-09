@@ -63,14 +63,15 @@
     margin-right: 50px;
 }
 
-P{
+.Parrafo1{
     font-family: 'Raleway', sans-serif;
     width:auto;
     height: auto;
+    font-weight: bold;
 }
 
 /*********animaciones******/
-p {
+.parrafo1 {
     animation-duration: 3s;
     animation-name: slidein;
 }
@@ -135,6 +136,17 @@ label{
     font-size: 0.8rem;
 }
 
+.botonR{
+ background-color: $maincolor;
+ border-color: $maincolor;
+}
+
+.botonE{
+    background-color: $maincolor;
+    border-color: $maincolor;
+}
+
+
 /*********************FIN DE PAGINA CONTACTO **********/
 
 /********************* PAGINA SHOW**********/
@@ -162,13 +174,4 @@ video {
 
 /********************* FIN DE PAGINA SHOW*********/
 
-/********************* FIN ERROR 404********/
-.volver{
-    color:$maincolor;
-    text-decoration: none;
-    font-size: $textoM;
-    font-family: $textoTitulo;
-    display: flex;
-    text-align: center;
 
-}
