@@ -1,20 +1,21 @@
 //extends//
 
+
 .name{
-    font-size: "Raleway", sans-serif;
-        color: #EBC00C;
-        display: flex;
-        justify-content: center;
-        padding-bottom: 5%;
-        padding-top: 4%;
-        font-weight: 600;
+    font-size: $Titulo;
+    color: $maincolor;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 15%;
+    font-weight: 600;
 }
 
 .prox{
     @extend .name;
     &:hover{
-        color:$resaltar;
-        }
+        color:$fondoP;
+    }
   
 }
 
