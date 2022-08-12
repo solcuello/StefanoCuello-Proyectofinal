@@ -1,5 +1,5 @@
 {
-  "name": "stefanocaranza-cuello2sass",
+  "name": "npm",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,13 @@
     "sass": "^1.53.0"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solcuello/StefanoCuello-Proyectofinal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solcuello/StefanoCuello-Proyectofinal/issues"
+  },
+  "homepage": "https://github.com/solcuello/StefanoCuello-Proyectofinal#readme",
   "description": ""
 }
